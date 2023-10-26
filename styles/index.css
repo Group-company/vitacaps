@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
  @import url(buy-section.css);
+ @import url(footer.css);
 
  *{
     padding: 0;
@@ -15,3 +16,16 @@
     --color-white: #FFFFFF;
 }
 
+.btn-bg-hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color); 
+    color: #000; 
+    border: 1px solid #ccc; 
+    transition: transform 0.3s ease;; 
+}
+
+.btn-bg-hover:hover {
+    background-color: var(--secondary-color-blue); 
+    transform: translateY(-7px);
+  }
