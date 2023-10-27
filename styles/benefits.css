@@ -1,0 +1,12 @@
+.benefits {
+    background: var(--color-white);
+}
+
+.benefits .vitamins {
+    display: flex;
+}
+
+.text {
+    background: var(--color-gray);
+}
+

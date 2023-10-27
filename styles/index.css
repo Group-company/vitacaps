@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
  @import url(buy-section.css);
  @import url(footer.css);
+ @import url(benefits.css);
 
  *{
     padding: 0;
@@ -9,11 +10,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    padding: 0 4rem;
+}
+
+@media(max-width: 768px) {
+ .container {
+    padding: 0 2rem;
+ } 
+}
+
 :root{
     --primary-color-blue: #0F4C8D;
     --secondary-color-blue: #16264D;
     --color-red: #CA1313;
     --color-white: #FFFFFF;
+    --color-gray: #C9C9C9;
 }
 
 .btn-bg-hover {
