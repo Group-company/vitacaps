@@ -20,7 +20,6 @@
     font-weight: bold;
     font-size: 1.1rem;
     position: relative;
-    border-radius: 30px;
     transform : translateY(-3rem);
     padding: 15px 4px;
 
@@ -32,7 +31,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
-    border-radius: 30px;
     position: relative;
     transform : translateY(-3rem);
     padding: 15px 4px;
@@ -90,8 +88,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 5px 10px 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
