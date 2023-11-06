@@ -2,6 +2,9 @@
  @import url(buy-section.css);
  @import url(footer.css);
  @import url(benefits.css);
+ @import url(header.css);
+ @import url(home.css);
+ @import url(sobre.css);
 
  *{
     padding: 0;
@@ -12,6 +15,9 @@
 
 .container {
     padding: 0 4rem;
+}
+img {
+    object-fit: cover;
 }
 
 @media(max-width: 768px) {
@@ -41,3 +47,4 @@
     background-color: var(--secondary-color-blue); 
     transform: translateY(-7px);
   }
+

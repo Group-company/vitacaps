@@ -1,12 +1,38 @@
 .benefits {
     background: var(--color-white);
+    margin: 40px 0;
 }
 
 .benefits .vitamins {
     display: flex;
 }
-
-.text {
-    background: var(--color-gray);
+.benefits .fruits-vegetable{
+    width: 40%;
+    object-fit: cover;
+    transform: scale(.9) translateX(1.7rem);
+    position: sticky;
+    z-index: 1;
 }
 
+.benefits .texts {
+    padding: 20px;
+    background: var(--color-gray);
+    color: #0F4C8D;
+    font-size: 1.2rem;
+    position: sticky;
+    z-index: 2;
+}
+
+@media(max-width: 800px) {
+    .benefits .vitamins {
+        flex-direction: column;
+    }
+    .benefits .fruits-vegetable{
+        width: 100%;
+        object-fit: cover;
+        transform: scale(1) translateX(0) ;
+    }
+    .benefits .texts {
+        transform:  translateY(-1.3rem);
+    }
+}
