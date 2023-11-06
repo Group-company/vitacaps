@@ -15,6 +15,7 @@
 }
 .header .nav ul li a {
     text-decoration: none;
+    color: var(--primary-color-blue);
 }
 .logo {
    transform: translateY(10px);
