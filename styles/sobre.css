@@ -1,0 +1,42 @@
+.sobre {
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 20px;
+}
+.sobre .box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.sobre .box p {
+    color: #827777;
+    font-weight: bold;
+}
+.sobre img {
+    width: 80px;
+}
+
+@media(max-width: 908px){
+    .sobre {
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        place-items: start;
+    }
+}
+
+@media(max-width: 600px){
+    .sobre {
+        grid-template-columns: 100%;
+        place-items: center;
+
+    }
+    .sobre .box {
+        flex-direction: column;
+    }
+    .sobre .box p {
+        text-align: center;
+    }
+}

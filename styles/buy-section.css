@@ -1,0 +1,132 @@
+.buy-section{
+    background-color: var( --primary-color-blue);
+    padding: 6rem 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buy-section .kit{
+    background-color: var(--color-white);
+    width: 300px;
+    border-radius: 50px;
+    padding: 2rem;
+}
+.buy-section .text-top{
+    background-color: var( --secondary-color-blue);
+    color: var(--color-white);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    transform : translateY(-3rem);
+    padding: 15px 4px;
+
+}
+
+.text-top-finally{
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    transform : translateY(-3rem);
+    padding: 15px 4px;
+}
+
+.footer-kit .text-think{
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.kit img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.kit .first{
+}
+.kit .text-top, .kit .text-top-finally {
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+.kit .text-top span, .kit .text-top-finally span {
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    padding: 10px 5px 10px 5px;
+}
+
+.footer-kit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-kit p {
+    color: var(--dark);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.footer-kit p > span{
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.footer-kit a{
+    background-color: var(--primary-color-blue);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.kit .text-top-finally{
+    background-color: var(--secondary-color-blue);
+    color: var(--color-white);
+}
+
+.bg-red{
+    background-color: var(--color-red);
+    color: var(--color-white);
+    position: relative;
+    top: 20px;
+}
+
+.footer-kit a {
+    border-radius: 30px;
+}
+
+@media (max-width: 1024px){
+    .buy-section{
+        flex-direction: column;
+    }
+    .buy-section .kit{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .buy-section{
+        flex-direction: column;
+    }
+    .buy-section .kit{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

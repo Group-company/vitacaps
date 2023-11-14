@@ -1,11 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vitacaps</title>
+  <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
-  <h1>Vita caps</h1>
+  <header class="header">
+    <nav class="container nav">
+      <div class="logo">
+        <img src="assets/svg/logo.svg" width="130px" alt="Logo vita caps">
+      </div>
+      <div class="menu-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="#home">Página inicial</a>
+        </li>
+        <li>
+          <a href="#kits-promocionais">Kits promocionais</a>
+        </li>
+        <li>
+          <a href="#">Contato</a>
+        </li>
+      </div>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <img src="assets/img/banner-teste.png"  class="fruits" alt="Banner vita caps">
+    <div class="middle">
+      <div class="texts">
+        <h3>Fortalecimento completo de A-Z:</h3>
+        <h1>VITACAPS</h1>
+        <p>Transforme a sua jornada de <span>bem-estar</span> 
+         e <span>conquiste o dia!</span>  </p>
+         <button>Compre agora</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre container">
+    <div class="box">
+      <img src="assets/svg/shield.svg" alt="">
+      <p>Auxilia no fortale
+        cimento do sistema 
+        imunológico</p>
+    </div>
+    <div class="box">
+      <img src="assets/svg/raio.svg" alt="">
+      <p>Mais energia 
+        no dia a dia</p>
+    </div>
+    <div class="box">
+      <img src="assets/svg/antioxidante.svg" alt="">
+      <p>Possui propriedades 
+        antioxidantes</p>
+    </div>
+  </section>
+
+  <section id="kits-promocionais" class="buy-section py-5 container">
+    <div class="kit">
+      <div class="text-top">
+        <p>1 POTE VITACAPS <br> <span>TRATAMENTO 30 DIAS</span></p>
+      </div>
+      <div class="image-kit">
+        <img src="assets/img/KIT-com-1.png" alt="">
+      </div>
+
+      <div class="footer-kit">
+        <p>Por Apenas <br> <span>R$ 49<span class="text-think">,90</span></span></p>
+        <a class="btn-bg-hover" target="_blank"
+          href="https://marshallcaps.lojavirtualnuvem.com.br/produtos/vitacaps/">COMPRE AGORA</a>
+      </div>
+    </div>
+
+    <div class="kit">
+      <div class="text-top">
+        <p>2 POTE VITACAPS <br> <span>TRATAMENTO DE 60 DIAS</span></p>
+      </div>
+
+      <div class="image-kit">
+        <img src="assets/img/KIT-com-2.png" alt="">
+      </div>
+
+      <div class="footer-kit">
+        <p>Por Apenas <br> <span>R$ 89<span class="text-think">,90</span></span></p>
+        <a class="btn-bg-hover" target="_blank" href="https://marshallcaps.lojavirtualnuvem.com.br/produtos/2-vitacaps/">COMPRE AGORA</a>
+      </div>
+    </div>
+
+    <div class="kit">
+      <div class="text-top-finally">
+        <p> 3 POTES VITACAPS <span>TRATAMENTO 90 DIAS</span><br> <span class="bg-red">MAIS VENDIDO</span></p>
+      </div>
+
+      <div class="image-kit">
+        <img src="assets/img/KIT-com-3 a (1).png" alt="">
+      </div>
+
+      <div class="footer-kit">
+        <p>Por Apenas <br> <span>R$ 134<span class="text-think">,70</span></span></p>
+        <a class="btn-bg-hover" target="_blank" href="https://marshallcaps.lojavirtualnuvem.com.br/produtos/3-vitacaps/">COMPRE AGORA</a>
+      </div>
+    </div>
+
+  </section>
+  <section class="benefits container">
+      <div class="vitamins">
+        <img class="fruits-vegetable" src="./assets/img/top-view-fresh-fruits-vegetables-with-different-medicine-wooden-spoon 1.png" alt="">
+        <div class="texts">
+          <h3>Benefícios das vitaminas</h3>
+          <br>
+          <p>As vitaminas são nutrientes essenciais para o bom funcionamento do organismo.</p>
+          <br>
+          <p>Elas promovem a saúde do sistema imunológico, metabolismo energético, saúde mental, equilíbrio hormonal e combatem o estresse oxidativo.</p>
+          <br>
+          <p>Consulte um profissional prescritor para entender melhor as suas necessidades.</p>
+        </div>
+      </div>
+  </section>
+
+  <section class="footer-container container">
+    <div class="section first">
+      <p class="copyright">Copyright © 2023 Marshall caps.</p>
+      <p class="alrights">Todos os direitos reservados</p>
+      <div class="social">
+        <img src="assets/svg/instagram.svg" alt="" />
+        <img src="assets/svg/twitter.svg" alt="" />
+        <img src="assets/svg/yt.svg" alt="" />
+      </div>
+    </div>
+    <div class="section second">
+      <h3>Seções</h3>
+      <a href="#pagina-inicial">Home</a>
+      <a href="#kit-promocionais">Benefícios</a>
+      <a href="#benefits">Kits Promocionais</a>
+    </div>
+    <div class="section thrd">
+      <h3>Suporte</h3>
+      <a href="https://wa.me/5562981808038">Contato</a>
+    </div>
+  </section>
+  <script src="js/menu.js"></script>
+
 </body>
+
 </html>
